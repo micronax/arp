@@ -1,0 +1,15 @@
+{
+    "name": "php4all/arp",
+    "description": "Local ARP database reading api",
+    "authors": [
+        {
+            "name": "Julien Darmon",
+            "email": "php4all@free.fr"
+        }
+    ],
+	"autoload": {
+		"psr-4": {"arp\\", "src/"}
+	},
+    "minimum-stability": "dev",
+    "require": {}
+}
