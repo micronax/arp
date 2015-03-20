@@ -7,9 +7,21 @@
             "email": "php4all@free.fr"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/php4all/arp.git"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/php4all/cache.git"
+        }            
+    ],
 	"autoload": {
-		"psr-4": {"arp\\", "src/"}
+		"psr-4": {"arp\\": "src/"}
 	},
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "php4all/cache" : "dev"
+    }
 }
