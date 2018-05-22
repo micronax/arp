@@ -16,8 +16,5 @@
 	"autoload": {
 		"psr-4": {"arp\\": "src/"}
 	},
-    "minimum-stability": "dev",
-    "require": {
-        "php4all/cache" : "dev"
-    }
+    "minimum-stability": "dev"
 }
