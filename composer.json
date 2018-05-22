@@ -11,11 +11,7 @@
         {
             "type": "vcs",
             "url": "https://github.com/php4all/arp.git"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/php4all/cache.git"
-        }            
+        }           
     ],
 	"autoload": {
 		"psr-4": {"arp\\": "src/"}
