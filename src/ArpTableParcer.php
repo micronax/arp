@@ -2,7 +2,7 @@
 
 namespace arp;
 
-interface AprTablePacer {
+interface AprTableParcer {
 	/**
 	 * ARP table parcing method
 	 *
